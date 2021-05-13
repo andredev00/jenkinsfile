@@ -1,0 +1,12 @@
+pipeline{
+    agent any 
+    
+    stages{
+        stage('GitHub Test Checkout'){
+            steps{
+                echo 'Hello World'
+            }
+        }
+    }
+    
+}
